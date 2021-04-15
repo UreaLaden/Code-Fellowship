@@ -1,0 +1,12 @@
+.heading{
+    color:$color-white;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-size:3.5rem;
+    background-image:linear-gradient(to right, $color-tertiary-dark,$color-black);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+    text-shadow: 0 1rem .75rem rgba($color-black,.4);
+
+}
