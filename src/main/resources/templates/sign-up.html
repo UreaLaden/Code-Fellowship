@@ -13,14 +13,10 @@
     <div class=section__container>
         <form action="/appUser" class="form" method="post">
             <div class="form__heading">
-                <h1 class="heading">
-                    Sign In
-                </h1>
+                <h1 class="heading" th:if="${appUser}" th:text="${appUser}"> Sign In</h1>
             </div>
             <div class="form__group">
-                <input type="text" class="form__input" placeholder="Username" id="username"
-                       name="username"
-                       required>
+                <input type="text" class="form__input" placeholder="Username" id="username" name="username"  required>
                 <label for="username" class="form__label">Username</label>
             </div>
             <div class="form__group">
